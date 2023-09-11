@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculadora_conversion" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/NaranjaU</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Calculadora_conversion" parent="Base.Theme.Calculadora_conversion" />
+
+    <style name="Theme.APISplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/gold</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/divisa</item>
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Calculadora_conversion</item>
+    </style>
+</resources>
